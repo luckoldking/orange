@@ -1,0 +1,8 @@
+/*
+ @use layout
+ @date 2012.10.14
+*/
+
+body{background:#EDEDED url(../../img/common/bgbody.png) repeat;}
+.mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:url(../../img/common/bgtop.png) no-repeat;}
+.mod-content{background:url(../../img/common/bgside.png) 50% 0 repeat-y;}
