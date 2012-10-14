@@ -10,18 +10,27 @@
 
 /* block */
 body{background:#EDEDED url(../../img/common/bgbody.png) repeat;}
-.mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:url(../../img/common/bgtop.png) -5px 0 no-repeat;}
-.mod-content{width:950px;padding:0 37px;background-color:#FFF;}
-.division{margin-top:30px;padding-top:34px;background:url(../../img/common/fenge.jpg) repeat-x;}
+.mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:#FFF url(../../img/common/bgtop.png) -5px 0 no-repeat;}
+.mod-content{width:950px;padding:0 37px;}
+.division{height:4px;background:url(../../img/common/fenge.jpg) repeat-x;}
+h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:'Droid Sans';font-size:16px;font-weight:bold;color:#ee475b;}
 
 /* head */
 #header{padding-top:20px;}
 .logo{float:left;display:inline;width:250px;}
 .navigation{float:right;}
 
-/* head */
+/* menu */
 .menu{margin-top:15px;}
 .menu li{float:left;height:36px;line-height:36px;padding:0 12px;font-family:'Droid Sans';font-size:14px;}
 .menu a:link,.menu a:visited{color:#363636;text-decoration:none;}
 .menu a:hover,.menu a:active{color:#2D7FE3;text-decoration:none;}
 .menu li.current-menu-item a{color:#F94C4E;}
+
+/* clare */
+.clare{padding-top:30px;}
+.clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 100px;font-family:'Droid Sans';color:#333;font-weight:normal;}
+
+/* footer */
+.supportpic{width: 848px;height: 93px;background: url("../../img/page/bg-support.png") no-repeat;margin: 0 auto;overflow: hidden;}
+h3.contacttitle{padding-left:65px;background:url(../../img/common/bgquote.png) 0 19px no-repeat;color:#666;}

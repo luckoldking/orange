@@ -3,9 +3,23 @@
  @date 2012.10.14
 */
 
-.carousel-v1{width:950px;height:400px;overflow:hidden;position:relative;}
+.carousel-v1{padding-top:30px;width:950px;height:400px;overflow:hidden;position:relative;}
 .carousel-v1 img{display:block;width:950px;height:400px;}
 .carousel-v1 .jcarousel-prev{position:absolute;left:20px;top:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-left.png) no-repeat;cursor:pointer;}
 .carousel-v1 .jcarousel-next{position:absolute;right:20px;top:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-right.png) no-repeat;cursor:pointer;}
+
+.showblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/p14.png) repeat;}
+.showblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;background:inherit;}
+.showlist{padding:20px 0 30px 0;}
+.showlist li{float:left;display:inline;width:208px;height:144px;overflow:hidden;margin:0 14px 20px 15px;
+	background:url(../../img/page/bg-listpic.jpg) no-repeat;}
+.showlist li img{display:block;width:200px;height:134px;padding:5px 0 0 4px;}
+
+.showlist1{padding:0 3px 40px;}
+.showlist1 li{float:left;display:inline;width:100px;height:122px;overflow:hidden;margin:0 9px;}
+.showlist1 li a:link,.showlist1 li a:visited{color:#333;text-decoration:none;}
+.showlist1 li a:hover,.showlist1 li a:active{color:#ee475b;text-decoration:none;}
+.showlist1 li img{display:block;width:100px;height:100px;}
+.showlist1 li span{display:block;width:100px;height:18px;padding-bottom:6px;overflow:hidden;font-family:'Droid Sans';text-align:center;}

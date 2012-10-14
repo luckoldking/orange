@@ -29,13 +29,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="mod">
+			<div class="clare">
+				<div class="division"></div>
+				<h2>Here is some infomation about holiday or other special info.</h2>
+				<div class="division"></div>
+			</div>
 			<div class="mod-content">
-				<div class="division">
-					21312312366<br/>
-					21312312355<br/>
-				</div>
 				<div class="carousel-v1">
 					<ul id="mycarousel">
 						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
@@ -45,6 +44,40 @@
 						<li><a href="#"><img src="http://www.cstarintl.com/images/5.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/6.jpg" /></a></li>
 					</ul>
+				</div>
+				<h3 class="commontitle">Hot Products</h3>
+				<div class="division" style="margin:10px 0 25px 0;"></div>
+				<ul class="showlist1 clr">
+					<li><a href="#"><span>type1</span><img src="http://www.swasky.com/images/tu11_58.gif" /></a></li>
+					<li><a href="#"><span>type2type2type2type2</span><img src="http://www.swasky.com/images/tu12_58.gif" /></a></li>
+					<li><a href="#"><span>type3type3</span><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
+					<li><a href="#"><span>type4</span><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+					<li><a href="#"><span>type5</span><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+					<li><a href="#"><span>type6</span><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+					<li><a href="#"><span>type7</span><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+					<li><a href="#"><span>type8</span><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+				</ul>
+			</div>
+			<div class="showblock">
+				<div class="mod-content">
+					<h3 class="commontitle">New Designs Show Case</h3>
+					<ul class="showlist clr">
+						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/5.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/6.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
+						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mod-content">
+				<div id="footer">
+					<h3 class="commontitle contacttitle">Contact Us</h3>
+					<div class="division" style="margin:10px 0 25px 0;"></div>
+					<div class="supportpic"></div>
 				</div>
 			</div>
 		</div>
@@ -57,8 +90,7 @@
     				wrap:'circular'
     			});
 			});
-
-</script>
+		</script>
 
 	</body>
 </html>
