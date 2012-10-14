@@ -1,0 +1,11 @@
+/*
+ @use index.css
+ @date 2012.10.14
+*/
+
+.carousel-v1{width:950px;height:400px;overflow:hidden;position:relative;}
+.carousel-v1 img{display:block;width:950px;height:400px;}
+.carousel-v1 .jcarousel-prev{position:absolute;left:20px;top:182px;width:36px;height:36px;
+	background:url(../../img/page/carousel-left.png) no-repeat;cursor:pointer;}
+.carousel-v1 .jcarousel-next{position:absolute;right:20px;top:182px;width:36px;height:36px;
+	background:url(../../img/page/carousel-right.png) no-repeat;cursor:pointer;}

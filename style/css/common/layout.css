@@ -3,6 +3,25 @@
  @date 2012.10.14
 */
 
+/* common */
+.clr{zoom:1;}
+.clr:after{display:block;clear:both;height:0;content:"\0020";}
+.clr1{}
+
+/* block */
 body{background:#EDEDED url(../../img/common/bgbody.png) repeat;}
-.mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:url(../../img/common/bgtop.png) no-repeat;}
-.mod-content{background:url(../../img/common/bgside.png) 50% 0 repeat-y;}
+.mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:url(../../img/common/bgtop.png) -5px 0 no-repeat;}
+.mod-content{width:950px;padding:0 37px;background-color:#FFF;}
+.division{margin-top:30px;padding-top:34px;background:url(../../img/common/fenge.jpg) repeat-x;}
+
+/* head */
+#header{padding-top:20px;}
+.logo{float:left;display:inline;width:250px;}
+.navigation{float:right;}
+
+/* head */
+.menu{margin-top:15px;}
+.menu li{float:left;height:36px;line-height:36px;padding:0 12px;font-family:'Droid Sans';font-size:14px;}
+.menu a:link,.menu a:visited{color:#363636;text-decoration:none;}
+.menu a:hover,.menu a:active{color:#2D7FE3;text-decoration:none;}
+.menu li.current-menu-item a{color:#F94C4E;}
