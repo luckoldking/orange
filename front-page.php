@@ -46,15 +46,19 @@
 						</ul>
 					</div>
 					<ul class="motifs-list clr">
+						<?php
+						$motifs_cats = get_categories(array(
+							'hide_empty' => false, 
+							'orderby' => 'id', 
+							'child_of' => 31, 
+							'title_li' => false
+						));
+						?>
+
+						<?php foreach ($motifs_cats as $cat): ?>
+						<li><a href="#"><span><?php echo $cat->name ?></span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
+						<?php endforeach ?>
 						<li><a href="#"><span>catagory1</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory2</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory3</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory4</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory5</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory6</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory7</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory8</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
-						<li><a href="#"><span>catagory9</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
 					</ul>
 				</div>
 			</div>
