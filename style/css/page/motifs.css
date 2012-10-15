@@ -1,0 +1,20 @@
+/*
+ @use motifs.css
+ @date 2012.10.15
+*/
+
+.carousel-v2{padding:30px 0 40px 0;width:950px;height:154px;position:relative;}
+.carousel-v2 .jcarousel-clip{width:950px;height:154px;overflow:hidden;}
+.carousel-v2 li{float:left;display:inline;width:208px;height:144px;overflow:hidden;margin:0 9px 0 10px;padding:4px;border:1px solid #CCC;}
+.carousel-v2 img{display:block;width:208px;height:144px;}
+.carousel-v2 .jcarousel-prev{position:absolute;left:-1px;top:55px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
+	background:url(../../img/page/carousel2-left.jpg) no-repeat;cursor:pointer;}
+.carousel-v2 .jcarousel-next{position:absolute;right:-1px;top:55px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
+	background:url(../../img/page/carousel2-right.jpg) no-repeat;cursor:pointer;}
+
+.motifs-list{padding:0 1px 30px 1px;}
+.motifs-list li{float:left;display:inline;width:306px;height:106px;margin:0 5px 10px 5px;}
+.motifs-list li a:link,.motifs-list li a:visited{float:left;width:300px;height:100px;border:3px solid #EEE;color:#999;text-decoration:none;}
+.motifs-list li a:hover,.motifs-list li a:active{color:#c44141;text-decoration:none;border-color:#c44141;}
+.motifs-list li span{float:left;display:inline;width:140px;height:20px;white-space:nowrap;overflow:hidden;margin:40px 10px 0 30px;font-size:14px;font-weight:bold;line-height:20px;}
+.motifs-list li img{float:left;display:inline;width:120px;height:100px;}
