@@ -3,14 +3,14 @@
  @date 2012.10.14
 */
 
-.carousel-v1{padding-top:30px;width:950px;height:400px;overflow:hidden;position:relative;}
+.carousel-v1{padding-top:30px;width:950px;height:400px;overflow:hidden;position:relative;background:url('../../img/common/ajax-loader.gif') center center no-repeat;}
 .carousel-v1 img{display:block;width:950px;height:400px;}
 .carousel-v1 .jcarousel-prev{position:absolute;left:20px;top:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-left.png) no-repeat;cursor:pointer;}
 .carousel-v1 .jcarousel-next{position:absolute;right:20px;top:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-right.png) no-repeat;cursor:pointer;}
 
-.showblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/p14.png) repeat;}
+.showblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#F4F4F4;}
 .showblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;background:inherit;}
 .showlist{padding:20px 0 30px 0;}
 .showlist li{float:left;display:inline;width:208px;height:144px;overflow:hidden;margin:0 14px 20px 15px;

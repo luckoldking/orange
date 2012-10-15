@@ -32,5 +32,12 @@ h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:'D
 .clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 100px;font-family:'Droid Sans';color:#333;font-weight:normal;}
 
 /* footer */
-.supportpic{width: 848px;height: 93px;background: url("../../img/page/bg-support.png") no-repeat;margin: 0 auto;overflow: hidden;}
-h3.contacttitle{padding-left:65px;background:url(../../img/common/bgquote.png) 0 19px no-repeat;color:#666;}
+#footer{padding:20px 0 40px 0;}
+.supportpic{width: 848px;height: 93px;background: url("../../img/common/bg-support.jpg") no-repeat;margin: 0 auto;overflow: hidden;}
+h3.contacttitle{color:#666;}
+.contactlist{padding-left:40px;}
+.contactlist ul{float:left;width:343px;padding:0 20px 30px 60px;}
+.contactlist ul li{color:#666;line-height:26px;}
+.contactlist ul li b{font-weight:bold;padding-right:12px;}
+.contactlist ul li h3{font-size:16px;font-weight:bold;}
+.contactlist .division2{float:left;display:inline;width:4px;height:230px;margin-top:32px;background:url(../../img/common/fenge2.jpg) repeat-y;}

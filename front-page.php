@@ -22,8 +22,12 @@
 						<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> -->
 						<div class="menu-juzi-container">
 							<ul class="menu" id="menu-juzi">
-								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13 first_item" id="menu-item-13"><a href="http://127.0.0.1/wordpress/"><span class="menu-link-left"></span><span class="menu-link">menus01</span><span class="menu-link-right"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">guge</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13 first_item" id="menu-item-13"><a href="http://127.0.0.1/wordpress/"><span class="menu-link-left"></span><span class="menu-link">Home</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">Company</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">Products</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">Motif Design</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">How To Apply</span><span class="menu-link-right"></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 last_item" id="menu-item-14" style="background:none!important;height:22px!important;"><a href="http://google.com"><span class="menu-link-left"></span><span class="menu-link">Contact Us</span><span class="menu-link-right"></span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -76,7 +80,28 @@
 			<div class="mod-content">
 				<div id="footer">
 					<h3 class="commontitle contacttitle">Contact Us</h3>
-					<div class="division" style="margin:10px 0 25px 0;"></div>
+					<div class="division" style="margin:20px 0 35px 0;"></div>
+					<div class="contactlist clr">
+						<ul>
+							<li><h3>CHINA</h3></li>
+							<li><b>TEL</b><span>86-571-85333051</span></li>
+							<li><b>FAX</b><span>86-571-85333052</span></li>
+							<li><b>E-MAIL</b><span>info@cstarintl.com</span></li>
+							<li><b>MSN</b><span>swasky@swasky.com</span></li>
+							<li><b>HOURS</b><br/><span>Monday-Saturday 9:00 a.m-6:00 p.m China Time</span></li>
+							<li><b>OFFICE ADDRESS(in China)</b><br/><span>15/F,Dongguan Building ,No.4288 Jiangnan Road,Binjiang District,Hangzhou, China</span></li>
+						</ul>
+						<div class="division2"></div>
+						<ul>
+							<li><h3>U.S.A</h3></li>
+							<li><b>TEL</b><span>86-571-85333051</span></li>
+							<li><b>FAX</b><span>86-571-85333052</span></li>
+							<li><b>E-MAIL</b><span>info@cstarintl.com</span></li>
+							<li><b>MSN</b><span>swasky@swasky.com</span></li>
+							<li><b>HOURS</b><br/><span>Monday-Saturday 9:00 a.m-6:00 p.m China Time</span></li>
+							<li><b>OFFICE ADDRESS(in China)</b><br/><span>15/F,Dongguan Building ,No.4288 Jiangnan Road,Binjiang District,Hangzhou, China</span></li>
+						</ul>
+					</div>	
 					<div class="supportpic"></div>
 				</div>
 			</div>
