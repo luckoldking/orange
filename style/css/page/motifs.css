@@ -12,9 +12,18 @@
 .carousel-v2 .jcarousel-next{position:absolute;right:-1px;top:55px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
 	background:url(../../img/page/carousel2-right.jpg) no-repeat;cursor:pointer;}
 
-.motifs-list{padding:0 1px 30px 1px;}
-.motifs-list li{float:left;display:inline;width:306px;height:106px;margin:0 5px 10px 5px;}
-.motifs-list li a:link,.motifs-list li a:visited{float:left;width:300px;height:100px;border:3px solid #EEE;color:#999;text-decoration:none;}
-.motifs-list li a:hover,.motifs-list li a:active{color:#c44141;text-decoration:none;border-color:#c44141;}
-.motifs-list li span{float:left;display:inline;width:140px;height:20px;white-space:nowrap;overflow:hidden;margin:40px 10px 0 30px;font-size:14px;font-weight:bold;line-height:20px;}
-.motifs-list li img{float:left;display:inline;width:120px;height:100px;}
+.motifs-cata{padding:0 1px 30px 1px;}
+.motifs-cata li{float:left;display:inline;width:306px;height:106px;margin:0 5px 10px 5px;}
+.motifs-cata li a:link,.motifs-cata li a:visited{float:left;width:300px;height:100px;border:3px solid #EEE;color:#999;text-decoration:none;}
+.motifs-cata li a:hover,.motifs-cata li a:active{color:#c44141;text-decoration:none;border-color:#c44141;}
+.motifs-cata li span{float:left;display:inline;width:140px;height:20px;white-space:nowrap;overflow:hidden;margin:40px 10px 0 30px;font-size:14px;font-weight:bold;line-height:20px;}
+.motifs-cata li img{float:left;display:inline;width:120px;height:100px;}
+
+.motifs-detailblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
+.motifs-detailblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;}
+.motifs-detail{padding:20px 32px 30px 32px;}
+.motifs-detail li{float:left;display:inline;width:192px;height:152px;overflow:hidden;margin:0 14px 20px 15px;
+	background:url(../../img/page/bg-listpic.jpg) no-repeat;}
+.motifs-detail li a:link,.motifs-detail li a:visited{display:block;padding:4px;border:2px solid #CCC;}
+.motifs-detail li a:hover,.motifs-detail li a:active{border-color:#c44141;}	
+.motifs-detail li img{display:block;width:180px;height:140px;}
