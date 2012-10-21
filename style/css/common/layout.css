@@ -25,7 +25,7 @@ h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:'D
 .menu li{float:left;height:36px;line-height:36px;padding:0 12px;font-family:'Droid Sans';font-size:14px;}
 .menu a:link,.menu a:visited{color:#363636;text-decoration:none;}
 .menu a:hover,.menu a:active{color:#2D7FE3;text-decoration:none;}
-.menu li.current-menu-item a{color:#F94C4E;}
+.menu li.current_page_item a,.menu li.current-menu-item a{color:#F94C4E !important;}
 
 /* clare */
 .clare{padding-top:30px;}
