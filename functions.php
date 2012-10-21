@@ -3,7 +3,7 @@ function orange_get_image_cats($pid) {
 	$cats = get_categories(array(
 		'hide_empty' => false, 
 		'orderby' => 'id', 
-		'child_of' => $pid, 
+		'parent' => $pid,
 		'title_li' => false
 	));	
 
@@ -29,6 +29,45 @@ function orange_get_image_cats($pid) {
 
 	return $cats;
 }
+
+function orange_get_cats_r($pid, $level = 2) {
+	$cats = get_categories(array(
+		'hide_empty' => false, 
+		'orderby' => 'id', 
+		'parent' => $pid, 
+		'title_li' => false
+	));	
+	
+	if ($level > 1) {
+		foreach ($cats as $cat) {
+			$cat->children = orange_get_cats_r($cat->cat_ID, $level - 1);
+		}
+	}
+
+	return $cats;
+}
+
+function orange_get_post_image($id) {
+	$files = array(
+		'image/jpg',
+		'image/jpeg',
+		'image/png',
+		'image/gif'
+	);
+	$args = array(
+		'post_type' => 'attachment', 
+		'post_parent' => $id
+	); 
+	$attaches = get_posts($args);
+
+	foreach ($attaches as $attach) {
+		if (in_array($attach->post_mime_type, $files)) {
+			return wp_get_attachment_url($attach->ID);
+		}
+	}
+	return null;
+}
+
 
 /* 
  * orange functions and definitions 

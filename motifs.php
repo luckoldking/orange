@@ -18,18 +18,12 @@ get_header(); ?>
 					</div>
 					<ul class="motifs-cata clr">
 						<?php
-						$motifs_cats = get_categories(array(
-							'hide_empty' => false, 
-							'orderby' => 'id', 
-							'child_of' => 31, 
-							'title_li' => false
-						));
+						$motifs_cats = orange_get_image_cats(31);		
 						?>
 
 						<?php foreach ($motifs_cats as $cat): ?>
-						<li><a href="#"><span><?php echo $cat->name ?></span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
+						<li><a href="<?php echo esc_url(get_category_link($cat->term_id)) ?>" title="<?php echo esc_attr($cat->name) ?>"><span><?php echo $cat->name ?></span><img src="<?php echo $cat->image ?>" /></a></li>
 						<?php endforeach ?>
-						<li><a href="#"><span>catagory1</span><img src="http://i03.c.aliimg.com/cms/upload/2012/102/444/444201_898491320.jpg" /></a></li>
 					</ul>
 				</div>
 			</div>
