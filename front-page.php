@@ -7,9 +7,10 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style/css/page/motifs.css'; ?>" type="text/css" />
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/jquery-1.8.js'; ?>"></script>
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/jcarousel.js'; ?>"></script>
+		<?php wp_head(); ?>
 	</head>
 	
-	<body>
+	<body <?php body_class(); ?>>
 		<div class="mod">
 			<div class="mod-content">
 				<div id="header" class="clr">
