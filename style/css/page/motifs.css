@@ -22,8 +22,7 @@
 .motifs-detailblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
 .motifs-detailblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;}
 .motifs-detail{padding:20px 32px 30px 32px;}
-.motifs-detail li{float:left;display:inline;width:192px;height:152px;overflow:hidden;margin:0 14px 20px 15px;
-	background:url(../../img/page/bg-listpic.jpg) no-repeat;}
+.motifs-detail li{float:left;display:inline;width:192px;height:152px;overflow:hidden;margin:0 14px 20px 15px;}
 .motifs-detail li a:link,.motifs-detail li a:visited{display:block;padding:4px;border:2px solid #CCC;}
 .motifs-detail li a:hover,.motifs-detail li a:active{border-color:#c44141;}	
 .motifs-detail li img{display:block;width:180px;height:140px;}

@@ -13,7 +13,7 @@ body{background:#EDEDED url(../../img/common/bgbody.png) repeat;}
 .mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:#FFF url(../../img/common/bgtop.png) -5px 0 no-repeat;}
 .mod-content{width:950px;padding:0 37px;}
 .division{height:4px;background:url(../../img/common/fenge.jpg) repeat-x;}
-h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:'Droid Sans';font-size:16px;font-weight:bold;color:#ee475b;}
+h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53, sans-serif";font-size:16px;font-weight:bold;color:#ee475b;}
 
 /* head */
 #header{padding-top:20px;}
@@ -22,22 +22,22 @@ h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:'D
 
 /* menu */
 .menu{margin-top:15px;}
-.menu li{float:left;height:36px;line-height:36px;padding:0 12px;font-family:'Droid Sans';font-size:14px;}
+.menu li{float:left;height:36px;line-height:36px;padding:0 12px;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53, sans-serif";font-size:14px;}
 .menu a:link,.menu a:visited{color:#363636;text-decoration:none;}
 .menu a:hover,.menu a:active{color:#2D7FE3;text-decoration:none;}
 .menu li.current_page_item a,.menu li.current-menu-item a{color:#F94C4E !important;}
 
 /* clare */
 .clare{padding-top:30px;}
-.clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 100px;font-family:'Droid Sans';color:#333;font-weight:normal;}
+.clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 100px;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53, sans-serif";color:#333;font-weight:normal;}
 
 /* footer */
-#footer{padding:20px 0 40px 0;}
+#footer{padding-bottom:40px;}
 .supportpic{width: 848px;height: 93px;background: url("../../img/common/bg-support.jpg") no-repeat;margin: 0 auto;overflow: hidden;}
-h3.contacttitle{color:#666;}
+h3.contacttitle{padding-top:40px;color:#666;}
 .contactlist{padding-left:40px;}
 .contactlist ul{float:left;width:343px;padding:0 20px 30px 60px;}
-.contactlist ul li{color:#666;line-height:26px;}
+.contactlist ul li{color:#333;line-height:26px;}
 .contactlist ul li b{font-weight:bold;padding-right:12px;}
 .contactlist ul li h3{font-size:16px;font-weight:bold;}
 .contactlist .division2{float:left;display:inline;width:4px;height:230px;margin-top:32px;background:url(../../img/common/fenge2.jpg) repeat-y;}

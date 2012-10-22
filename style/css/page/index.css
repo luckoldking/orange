@@ -22,4 +22,4 @@
 .showlist1 li a:link,.showlist1 li a:visited{color:#333;text-decoration:none;}
 .showlist1 li a:hover,.showlist1 li a:active{color:#ee475b;text-decoration:none;}
 .showlist1 li img{display:block;width:100px;height:100px;}
-.showlist1 li span{display:block;width:100px;height:18px;padding-bottom:6px;overflow:hidden;font-family:'Droid Sans';text-align:center;}
+.showlist1 li span{display:block;width:100px;height:18px;padding-bottom:6px;overflow:hidden;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53,sans-serif";text-align:center;}

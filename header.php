@@ -3,8 +3,6 @@
 	<head>
 		<title><?php bloginfo( 'name' ); ?></title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style/css/common/layout.css'; ?>" type="text/css" />
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style/css/page/products.css'; ?>" type="text/css" />
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/jquery-1.8.js'; ?>"></script>
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/jcarousel.js'; ?>"></script>
 		<base target="_self" />
