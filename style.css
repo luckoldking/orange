@@ -12,6 +12,7 @@ Text Domain: orange
 
 @import url("style/css/common/reset.css");
 @import url("style/css/common/layout.css");
+@import url("style/css/common/lightview/lightview.css");
 @import url("style/css/page/index.css");
 @import url("style/css/page/motifs.css");
 @import url("style/css/page/products.css");

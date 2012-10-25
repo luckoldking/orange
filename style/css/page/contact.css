@@ -1,0 +1,18 @@
+/*
+ @use apply.css
+ @date 2012.10.21
+*/
+
+.googlemap{display:block;margin:10px 0 0 28px;}
+.contact-post{width:750px;margin:0 auto 30px;}
+.contact-post p{font-size:14px;line-height:26px;color:#333;font-family:"Verdana,Tahoma, Arial,\5b8b\4f53, sans-serif";}
+.contactmail{width:800px;margin:0 auto;}
+.contactmail h3{color:#333;font-size:14px;font-weight:normal;}
+.emaillist{width:620px;padding:30px 50px;border:1px dashed #ccc;margin:20px 0;color:#333;}
+.emaillist li{width:310px;padding-bottom:8px;}
+.emaillist li label{display:block;font-size:14px;line-height:26px;padding-bottom:8px;}
+.emaillist li input{display:block;width:240px;height:14px;padding:6px;line-height:14px;border:1px solid #ccc;}
+.emaillist li.tarea{float:right;}
+.emaillist li.tarea textarea{width:300px;height:166px;border:1px solid #ccc;}
+.emaillist li.tarea label{display:block;}
+.emailbut{text-align:right;margin-top:8px;}

@@ -2,7 +2,6 @@
 /**
  * motifs page file
  */
-
 get_header(); ?>
 			<div class="mod-content">
 				<div class="motifs">
@@ -18,7 +17,7 @@ get_header(); ?>
 					</div>
 					<ul class="motifs-cata clr">
 						<?php
-						$motifs_cats = orange_get_image_cats(31);		
+						$motifs_cats = orange_get_image_cats(3);		
 						?>
 
 						<?php foreach ($motifs_cats as $cat): ?>
@@ -30,18 +29,15 @@ get_header(); ?>
 			<div class="motifs-detailblock">
 				<div class="mod-content">
 					<ul class="motifs-detail clr">
-						<li><a href="#"><img src="http://www.cstarintl.com/product/proimage/0165(1).jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/5.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/6.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/5.jpg" /></a></li>
-						<li><a href="#"><img src="http://www.cstarintl.com/images/6.jpg" /></a></li>
+						<?php $lvgroup = rand()
+						?>
+						<?php while (have_posts()): the_post() ?>
+						<li>
+							<a href="<?php echo orange_get_post_image($post->ID) ?>" class="lightview" data-lightview-group="lvgroup<?php echo $lvgroup ?>">
+								<img src="<?php echo orange_get_post_image($post->ID) ?>" />
+							</a>
+						</li>
+						<?php endwhile ?>
 					</ul>
 				</div>
 			</div>

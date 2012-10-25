@@ -13,11 +13,11 @@
 	background:url(../../img/page/carousel2-right.jpg) no-repeat;cursor:pointer;}
 
 .motifs-cata{padding:0 1px 30px 1px;}
-.motifs-cata li{float:left;display:inline;width:306px;height:106px;margin:0 5px 10px 5px;}
-.motifs-cata li a:link,.motifs-cata li a:visited{float:left;width:300px;height:100px;border:3px solid #EEE;color:#999;text-decoration:none;}
+.motifs-cata li{float:left;display:inline;width:227px;height:76px;margin:0 5px 10px 5px;}
+.motifs-cata li a:link,.motifs-cata li a:visited{float:left;width:221px;height:70px;border:3px solid #EEE;color:#999;text-decoration:none;}
 .motifs-cata li a:hover,.motifs-cata li a:active{color:#c44141;text-decoration:none;border-color:#c44141;}
-.motifs-cata li span{float:left;display:inline;width:140px;height:20px;white-space:nowrap;overflow:hidden;margin:40px 10px 0 30px;font-size:14px;font-weight:bold;line-height:20px;}
-.motifs-cata li img{float:left;display:inline;width:120px;height:100px;}
+.motifs-cata li span{float:left;display:inline;width:121px;height:20px;white-space:nowrap;overflow:hidden;margin:25px 12px 0 13px;font-size:14px;font-weight:bold;line-height:20px;}
+.motifs-cata li img{float:left;display:inline;width:75px;height:70px;}
 
 .motifs-detailblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
 .motifs-detailblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;}

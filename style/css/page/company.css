@@ -1,0 +1,12 @@
+/*
+ @use company.css
+ @date 2012.10.21
+*/
+
+.company-post{width:750px;margin:0 auto;padding:40px 50px;background-color:#F4F4F4;}
+.company-post h4{font-size:16px;color:#333;font-weight:bold;padding-bottom:12px;}
+.company-post p{padding-bottom:30px;font-size:14px;line-height:2.2;font-family:"Verdana,Tahoma, Arial,\5b8b\4f53, sans-serif";}
+.company-show li{float:left;display:inline;width:355px;height:262px;overflow:hidden;margin:0 5px 10px 5px;}
+.company-show li a:link,.company-show li a:visited{display:block;padding:4px;border:2px solid #CCC;}
+.company-show li a:hover,.company-show li a:active{border-color:#c44141;}	
+.company-show li img{display:block;width:343px;height:250px;}

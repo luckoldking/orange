@@ -9,7 +9,7 @@
 .clr1{}
 
 /* block */
-body{background:#EDEDED url(../../img/common/bgbody.png) repeat;}
+body{background:#EDEDED url(../../img/common/bgbody.png) repeat;overflow-y:scroll;}
 .mod{width:1024px;margin:10px auto 32px;padding-top:6px;background:#FFF url(../../img/common/bgtop.png) -5px 0 no-repeat;}
 .mod-content{width:950px;padding:0 37px;}
 .division{height:4px;background:url(../../img/common/fenge.jpg) repeat-x;}

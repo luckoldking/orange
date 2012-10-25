@@ -1,0 +1,10 @@
+/*
+ @use apply.css
+ @date 2012.10.21
+*/
+
+.apply-tab{margin:30px 100px;border-bottom:1px solid #ccc;}
+.apply-tab li{float:left;display:inline;width:250px;padding-bottom:4px;text-align:center;}
+.apply-tab span{display:block;padding:20px 0;height:20px;line-height:20px;color:#333;font-size:16px;}
+li.apply-tab-current  span{border-bottom:1px solid #ccc;font-weight:bold;}
+.apply-tabcon img{display:block;width:400px;height:300px;margin:0 auto;}
