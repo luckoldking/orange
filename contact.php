@@ -14,7 +14,7 @@ $to = 'bencode@163.com';
  */
 
 $is_send = false;
-if (!empty($_POST['subject'])) {
+if (!empty($_POST['email'])) {
 	require_once dirname(__FILE__) . '/email.php';
 	
 	$subject = get_contact_field('subject');
@@ -88,7 +88,7 @@ get_header(); ?>
 					</div>
 					<div class="contactmail">
 						<h3>Fill out our contact form below and we'll get back to you as soon as possible.</h3>
-						<form name="orange" action="" method="post">
+						<form class="contact-form" action="" method="post">
 							<ul class="emaillist clr">
 								<li class="tarea">
 									<label>Message:</label>
@@ -110,9 +110,10 @@ get_header(); ?>
 
 <?php if ($is_send): ?>
 <script>
-alert('success!');
+alert("send success, and we'll get back to you as soon as possible");
 </script>
 <?php endif ?>
+<script src="<?php echo get_template_directory_uri() . '/style/js/page/contact.js' ?>"></script>
 
 	</body>
 </html>
