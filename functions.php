@@ -113,3 +113,4 @@ function orange_category_template($template = '') {
 
 	return locate_template($template, false);
 }
+
