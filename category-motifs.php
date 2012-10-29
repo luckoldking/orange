@@ -35,10 +35,19 @@ get_header(); ?>
 						<li>
 							<a href="<?php echo orange_get_post_image($post->ID) ?>" class="lightview" data-lightview-group="lvgroup<?php echo $lvgroup ?>">
 								<img src="<?php echo orange_get_post_image($post->ID) ?>" />
+								<span>I like it!</span>
 							</a>
 						</li>
 						<?php endwhile ?>
 					</ul>
+				</div>
+			</div>
+			<div class="likebox">
+				<h4>Your favourite</h4>
+				<ul class="likebox-content clr">
+				</ul>
+				<div class="clr">
+					<button id="likebox-send" class="likebox-send">send to us</button>
 				</div>
 			</div>
 		</div>
