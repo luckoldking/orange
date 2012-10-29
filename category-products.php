@@ -10,7 +10,7 @@ get_header(); ?>
 					<ul>
 						<?php
 						$current_cat_id = $cat;
-						$cats = orange_get_cats_r(4);
+						$cats = orange_get_cats_r(30);
 						?>
 						<?php foreach ($cats as $cat): ?>
 						<?php if ($cat->cat_ID == $current_cat_id): ?>

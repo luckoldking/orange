@@ -17,11 +17,11 @@ get_header(); ?>
 					</div>
 					<ul class="motifs-cata clr">
 						<?php
-						$motifs_cats = orange_get_image_cats(3);		
+						$motifs_cats = orange_get_image_cats(31);		
 						?>
 
 						<?php foreach ($motifs_cats as $cat): ?>
-						<li><a href="<?php echo esc_url(get_category_link($cat->term_id)) ?>" title="<?php echo esc_attr($cat->name) ?>"><span><?php echo $cat->name ?></span><img src="<?php echo $cat->image ?>" /></a></li>
+						<li><a href="<?php echo esc_url(get_category_link($cat->term_id)) ?>" title="<?php echo esc_attr($cat->name) ?>" target="_blank"><span><?php echo $cat->name ?></span><img src="<?php echo $cat->image ?>" /></a></li>
 						<?php endforeach ?>
 					</ul>
 				</div>

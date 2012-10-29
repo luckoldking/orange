@@ -1,4 +1,45 @@
 <?php
+$mail_config = array(
+	'protocol' => 'smtp',
+	'smtp_host' => 'smtp.163.com',
+	'smtp_user' => 'bencode',
+	'smtp_pass' => 'qazwsxedc123',
+	'smtp_port' => 25
+);
+$from = 'bencode@163.com';
+$to = 'bencode@163.com';
+
+/**
+ * do contact post
+ */
+
+$is_send = false;
+if (!empty($_POST['email'])) {
+	require_once dirname(__FILE__) . '/email.php';
+	
+	$subject = get_contact_field('subject');
+	$realname = get_contact_field('realname');
+	$email = get_contact_field('email');
+	$message = get_contact_field('message');
+	
+	$mail = new CI_Email($mail_config);
+	$mail->from($from);
+	$mail->to($to);
+	$mail->subject($realname . '(' . $email . ')' . $subject);
+	$mail->message($message);
+	
+	$mail->send();
+
+	$is_send = true;
+}
+
+function get_contact_field($name) {
+	if (!empty($_POST[$name])) {
+		return $_POST[$name];
+	}
+	return '';
+}
+
 /**
  * index file
  */
@@ -47,7 +88,7 @@ get_header(); ?>
 					</div>
 					<div class="contactmail">
 						<h3>Fill out our contact form below and we'll get back to you as soon as possible.</h3>
-						<form name="orange" action="#">
+						<form class="contact-form" action="" method="post">
 							<ul class="emaillist clr">
 								<li class="tarea">
 									<label>Message:</label>
@@ -66,5 +107,13 @@ get_header(); ?>
 				</div>	
 			</div>
 		</div>
+
+<?php if ($is_send): ?>
+<script>
+alert("send success, and we'll get back to you as soon as possible");
+</script>
+<?php endif ?>
+<script src="<?php echo get_template_directory_uri() . '/style/js/page/contact.js' ?>"></script>
+
 	</body>
 </html>
