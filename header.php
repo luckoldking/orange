@@ -19,14 +19,17 @@
 							<img alt="cstar" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/common/logo.gif" />
 						</a>
 					</div>
+
 					<div class="navigation">
 						<?php wp_nav_menu( array( 
 							'theme_location' => 'primary',
 							'container'       => 'div',
 							'container_class' => 'menu-juzi-container',
 							'menu_class'      => 'menu', 
-  							'menu_id'         => 'menu-juzi'
+							'menu_id'         => 'menu-juzi'
 						) ); ?>
 					</div>
+					<?php get_search_form(); ?>
+
 				</div>
 			</div>

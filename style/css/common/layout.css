@@ -18,7 +18,23 @@ h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:"D
 /* head */
 #header{padding-top:20px;}
 .logo{float:left;display:inline;width:250px;}
-.navigation{float:right;}
+
+.navigation {float: right;}
+#searchform { float: right; padding: 16px 10px 0 0; }
+#searchform .screen-reader-text {
+	display: none;
+}
+#searchform input#s {
+	border: 1px solid #DDDDDD;
+	background: url(../../img/common/search.png) no-repeat 5px 6px; 
+	border-radius: 2px 2px 2px 2px; 
+	font-size: 14px; 
+	height: 22px; 
+	line-height: 1.2em; 
+	padding: 4px 10px 4px 28px; 
+	color: #373737;
+}
+#header #searchform #searchsubmit { display: none; }
 
 /* menu */
 .menu{margin-top:15px;}
