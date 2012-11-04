@@ -10,8 +10,8 @@
 .products-cata-lv1 a:hover,.products-cata-lv1 a:active{color:#c44141;font-weight:bold;text-decoration:none;}
 .products-cata-lv1 ul{display:none;}
 .products-cata-lv2{padding:4px 0 4px 18px;}
-.products-cata-current a:link,.products-cata-current a:visited{color:#c44141;font-weight:bold;}
-.products-cata-current a:hover,.products-cata-current a:active{color:#c44141;font-weight:bold;}
+.products-cata-current a:link,.products-cata-current a:visited,.products-cata-lv2-current a:link,.products-cata-lv2-current a:visited{color:#c44141;font-weight:bold;}
+.products-cata-current a:hover,.products-cata-current a:active,.products-cata-lv2-current a:hover,.products-cata-lv2-current a:active{color:#c44141;font-weight:bold;}
 .products-cata-current li a:link,.products-cata-current li a:visited{color:#333;font-weight:normal;}
 .products-cata-current li a:hover,.products-cata-current li a:active{color:#c44141;font-weight:bold;}
 

@@ -15,4 +15,12 @@
 .emaillist li.tarea{float:right;}
 .emaillist li.tarea textarea{width:300px;height:166px;border:1px solid #ccc;}
 .emaillist li.tarea label{display:block;}
-.emailbut{text-align:right;margin-top:8px;}
+.emaillist .emailbut{float:right;margin-top:20px;width:60px;}
+.emaillist .emailbut button{width:60px;cursor:pointer;}
+.emaillist .favpiclist{display:none;float:right;width:550px;margin-top:8px;}
+.emaillist .favpiclist li{float:left;margin:5px;width:50px;height:50px;padding:0;}
+.emaillist .favpiclist li a{position:relative;display:block;}
+.emaillist .favpiclist li a:link span,.emaillist li.favpiclist li a:visited span{display:none;width:16px;height:16px;
+	position:absolute;right:0px;top:0px;background:#FFF url(../../img/common/delete.png) 0px 0px no-repeat;}
+.emaillist .favpiclist li a:hover span,.emaillist li.favpiclist li a:active span{display:block;}
+.emaillist .favpiclist li img{width:50px;height:50px;}

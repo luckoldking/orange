@@ -5,7 +5,7 @@
 
 get_header(); ?>
 			<div class="mod-content">
-				<h3 class="commontitle">Welcome to Cstar International,LLC!</h3>
+				<!--<h3 class="commontitle">Welcome to Cstar International,LLC!</h3>-->
 				<div class="division" style="margin:20px 0 35px 0;"></div>
 				<div class="company-post">
 					<h4>About us</h4>
@@ -20,10 +20,10 @@ get_header(); ?>
 					</p>
 					<h4>Photos</h4>
 					<ul class="company-show clr">
-						<li><a href="http://www.cstarintl.com/product/proimage/0165(1).jpg" target="_blank"><img src="http://www.cstarintl.com/product/proimage/0165(1).jpg"></a></li>
-						<li><a href="http://www.cstarintl.com/images/2.jpg" target="_blank"><img src="http://www.cstarintl.com/images/2.jpg"></a></li>
-						<li><a href="http://www.cstarintl.com/images/3.jpg" target="_blank"><img src="http://www.cstarintl.com/images/3.jpg"></a></li>
-						<li><a href="http://www.cstarintl.com/images/4.jpg" target="_blank"><img src="http://www.cstarintl.com/images/4.jpg"></a></li>
+						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/product/proimage/0165(1).jpg" target="_blank"><img src="http://www.cstarintl.com/product/proimage/0165(1).jpg"></a></li>
+						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/images/2.jpg" target="_blank"><img src="http://www.cstarintl.com/images/2.jpg"></a></li>
+						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/images/3.jpg" target="_blank"><img src="http://www.cstarintl.com/images/3.jpg"></a></li>
+						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/images/4.jpg" target="_blank"><img src="http://www.cstarintl.com/images/4.jpg"></a></li>
 					</ul>
 				</div>
 			</div>
