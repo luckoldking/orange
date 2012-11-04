@@ -17,7 +17,7 @@ get_header(); ?>
 					</div>
 					<ul class="motifs-cata clr">
 						<?php
-						$motifs_cats = orange_get_image_cats(3);		
+						$motifs_cats = orange_get_image_cats(CAT_MOTIFS_ID);		
 						?>
 
 						<?php foreach ($motifs_cats as $cat): ?>

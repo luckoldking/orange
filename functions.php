@@ -94,24 +94,37 @@ function orange_custom_func(){
 }
 
 
+define(CAT_MOTIFS_ID, 3);
+define(CAT_PRODUCTS_ID, 4);
+
 add_filter('category_template', 'orange_category_template');
 function orange_category_template($template = '') {
 	global $cat;
 	
 	$id_map = array(
-		3 => 'category-motifs.php',
-		4 => 'category-products.php'
+		CAT_MOTIFS_ID => 'category-motifs.php',
+		CAT_PRODUCTS_ID => 'category-products.php'
 	);
-	
+
+	$pid_map = array(
+		CAT_MOTIFS_ID => 'category-motifs-children.php',
+		CAT_PRODUCTS_ID => 'category-products.php'
+	);
+
 	$cat_id = $cat;
-	$template = 'category.php';
-	while ($cat_id) {
-		if (!empty($id_map[$cat_id])) {
-			$template = $id_map[$cat_id];
-			break;
+
+	if (!empty($id_map[$cat_id])) {
+		$template = $id_map[$cat_id];
+	} else {
+		$template = 'category.php';
+		while ($cat_id) {
+			if (!empty($pid_map[$cat_id])) {
+				$template = $pid_map[$cat_id];
+				break;
+			}
+			$o = get_category($cat_id);
+			$cat_id = $o->category_parent;
 		}
-		$o = get_category($cat_id);
-		$cat_id = $o->category_parent;
 	}
 
 	return locate_template($template, false);
