@@ -44,8 +44,7 @@
 	//喜欢motifs发送功能
 	parts.sendLike = {
 		execute:function(){
-			var con = $('.likebox-content'),
-				sendbut = $('.likebox-send');
+			var con = $('.likebox-content');
 			
 			this._initContent(con);	
 			this._bindEvent(con);		
@@ -100,6 +99,27 @@
 					$('.likebox').hide();
 				}
 			});
+			//图片链接列表提交到contact us页面
+			$('#likebox-send').click(function(e){
+				if($.browser.msie && $.browser.version < 8){
+					var pics = $('.likebox .lightview img'),
+						data = [],
+						param = '';
+					
+					if(pics.length === 0 ){
+						alert('Please choose your favourite motifs first！');
+						return;
+					}
+					pics.each(function(i, el){
+						data.push(el.src);
+					});
+					param = data.join(',');
+					window.open('http://127.0.0.1/wordpress/contact?pics=' + encodeURIComponent(param) + '#contactmail','_self');						
+				}
+				else{
+					window.open('http://127.0.0.1/wordpress/contact#contactmail','_self');
+				}
+			});
 		},
 		_move:function(from, to){
 			var pos1 = from.offset(),
@@ -125,6 +145,26 @@
 				
 		},
 		_localStorage:function(obj, operation){
+			if($.browser.msie && $.browser.version < 8){
+				var data = $('.likebox .lightview img');
+				switch (operation) {
+					case 'has':
+						var img = obj.find('img').prop('src');
+						for(var i = 0; i < data.length; i++){
+							if(data[i] === img){
+								return true;
+							}
+						}
+						return false;
+						break;
+					case 'getAll':
+						return null;
+						break;
+					default:
+						return 'fcie6';
+				}
+			}
+			
 			var self = this,
 				item = localStorage.getItem('favpic'),
 				data = (item && JSON.parse(item)) || {};

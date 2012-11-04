@@ -29,6 +29,7 @@
 							'menu_id'         => 'menu-juzi'
 						) ); ?>
 					</div>
+
 					<?php get_search_form(); ?>
 
 				</div>

@@ -86,20 +86,27 @@ get_header(); ?>
 							</li>
 						</ul>
 					</div>
-					<div class="contactmail">
+					<div id="contactmail" class="contactmail">
 						<h3>Fill out our contact form below and we'll get back to you as soon as possible.</h3>
 						<form class="contact-form" action="" method="post">
 							<ul class="emaillist clr">
 								<li class="tarea">
 									<label>Message:</label>
 									<textarea name="message"></textarea>
-									<div class="emailbut">
-										<button type="submit">Send</button>
-									</div>
 								</li>
 								<li><label>Your Name:</label><input name="realname" value="" /></li>
 								<li><label>Your Email:</label><input name="email" value="" /></li>
 								<li><label>Subject:</label><input name="subject" value="" /></li>
+								<li class="clr" style="width:614px;clear:both;">
+									<div class="emailbut">
+										<button type="submit">Send</button>
+									</div>
+									<div class="favpiclist">
+										<label>I like:</label>
+										<ul class="likearea">
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</form>
 					</div>	
