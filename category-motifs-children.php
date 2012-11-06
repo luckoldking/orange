@@ -19,6 +19,7 @@ get_header(); ?>
 						</li>
 						<?php endwhile ?>
 					</ul>
+					<?php pagenavi() ?>
 				</div>
 				<a class="fixeffect motif-backbut" href="http://127.0.0.1/wordpress/category/motifs">Back to Category</a>
 			</div>
