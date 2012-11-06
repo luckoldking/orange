@@ -13,6 +13,8 @@ get_header(); ?>
 							<a href="<?php echo orange_get_post_image($post->ID) ?>" class="lightview" data-lightview-group="lvgroup<?php echo $lvgroup ?>">
 								<img src="<?php echo orange_get_post_image($post->ID) ?>" />
 								<span title="if you like it,please click">I like it!</span>
+								<div><?php the_title() ?></div>
+								<div><?php the_content()?></div>
 							</a>
 						</li>
 						<?php endwhile ?>
