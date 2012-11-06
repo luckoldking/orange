@@ -17,3 +17,8 @@ li.apply-tab-current  span{border-bottom:1px solid #ccc;font-weight:bold;}
 .iron-list li.arrow img{width:auto;height:auto;margin:60px auto 0;}
 .iron-list li.arrow-down{width:200px;margin:28px 0 30px 550px;}
 .iron-list li.arrow-down img{width:auto;height:auto;margin:0 auto;}
+
+.customdesign-list li{margin:0 0 40px 50px;}
+.customdesign-list li img{float:left;display:inline;}
+.customdesign-list li img.flow-pic{width:250px;height:250px;}
+.customdesign-list li img.flow-arrow{width:40px;height:40px;margin:105px 50px 0 50px;}

@@ -4,6 +4,7 @@
 var Contact = {
 	init: function() {
 		var form = $('form.contact-form'),
+			message = $('textarea[name=message]', form),
 			emailText = $('input[name=email]', form),
 			emailPattern = /^(.+)@(\w+)(\.\w+)*\.(\w{2,6})$/;
 
@@ -19,6 +20,12 @@ var Contact = {
 				alert('invalid email address');
 				return;
 			}
+			
+			var html = [];
+			$('ul.likearea li img', form).each(function() {
+				html.push(this.src);
+			});
+			message.val(message.val() + '\n' + html.join('\n'));
 
 			form[0].submit();
 		});

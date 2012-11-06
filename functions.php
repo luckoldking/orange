@@ -94,8 +94,8 @@ function orange_custom_func(){
 }
 
 
-define(CAT_MOTIFS_ID, 31);
-define(CAT_PRODUCTS_ID, 30);
+define(CAT_MOTIFS_ID, 3);
+define(CAT_PRODUCTS_ID, 4);
 
 add_filter('category_template', 'orange_category_template');
 function orange_category_template($template = '') {

@@ -19,9 +19,9 @@
 .motifs-cata li span{float:left;display:inline;width:121px;height:20px;white-space:nowrap;overflow:hidden;margin:25px 12px 0 13px;font-size:14px;font-weight:bold;line-height:20px;}
 .motifs-cata li img{float:left;display:inline;width:75px;height:70px;}
 
-.motifs-detailblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
+.motifs-detailblock{margin-top:30px;position:relative;border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
 .motifs-detailblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;}
-.motifs-detail{padding:20px 32px 30px 32px;}
+.motifs-detail{padding:50px 32px 30px 32px;}
 .motifs-detail li{float:left;display:inline;width:192px;height:152px;margin:0 14px 20px 15px;}
 .motifs-detail li a:link,.motifs-detail li a:visited{position:relative;display:block;padding:4px;border:2px solid #CCC;color:#333;}
 .motifs-detail li a:hover,.motifs-detail li a:active{border-color:#c44141;}	
@@ -40,3 +40,6 @@
 .likebox-content li a:hover span,.likebox-content li a:active span{display:block;}
 .likebox-content li img{width:50px;height:50px;}
 .likebox-send{float:right;display:inline;margin:10px 10px 0 0;cursor:pointer;}
+a.motif-backbut:link,a.motif-backbut:visited{position:absolute;right:8px;top:8px;padding-left:36px;height:32px;line-height:32px;color:#666;text-decoration:none;
+	background:url(../../img/page/backbut.png) left top no-repeat;}
+a.motif-backbut:hover,a.motif-backbut:active{color:#c44141;text-decoration:none;}

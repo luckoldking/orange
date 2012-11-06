@@ -12,9 +12,17 @@ get_header(); ?>
 				</ul>
 				<ul class="apply-tabcon">
 					<li class="apply-tabcon-li" style="display:block;">
-						<ul>
-							<li></li>
-							<li></li>
+						<ul class="customdesign-list">
+							<li class="clr">
+								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow11.jpg" />
+								<img class="flow-arrow" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" />
+								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow12.jpg" />
+							</li>
+							<li class="clr">
+								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow21.jpg" />
+								<img class="flow-arrow" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" />
+								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow22.jpg" />
+							</li>
 						</ul>
 					</li>
 					<li class="apply-tabcon-li"><a href="#"><img style="width:240px;height:200px;" src="http://www.cstarintl.com/images/2.jpg"></a></li>
