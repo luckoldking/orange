@@ -124,7 +124,6 @@ Tabs.prototype = {
 		this.div.on(event, options.prevNav, function(e) {
 			e.preventDefault();
 			var prev = self.index - 1;	
-			console.debug(prev);
 			if (prev >= 0) {
 				self.switchTo(prev);
 			}
@@ -133,7 +132,6 @@ Tabs.prototype = {
 		this.div.on(event, options.nextNav, function(e) {
 			e.preventDefault();
 			var next = self.index + 1;	
-			console.debug(next);
 			if (next < self._panes.length) {
 				self.switchTo(next);
 			}
