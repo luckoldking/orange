@@ -9,6 +9,8 @@
 	background:url(../../img/page/carousel-left.png) no-repeat;cursor:pointer;}
 .carousel-v1 .jcarousel-next{position:absolute;right:20px;top:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-right.png) no-repeat;cursor:pointer;}
+.carousel-v1 #mycarousel { width: 10000px; }
+.carousel-v1 #mycarousel li { float: left; }
 
 .showblock{border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#F4F4F4;}
 .showblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;background:inherit;}

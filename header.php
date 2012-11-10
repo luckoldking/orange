@@ -4,7 +4,7 @@
 		<title><?php bloginfo( 'name' ); ?></title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/jquery-1.8.js'; ?>"></script>
-		<script src="<?php echo get_template_directory_uri().'/style/js/common/carousel/jcarousel.js'; ?>"></script>
+		<script src="<?php echo get_template_directory_uri().'/style/js/common/tabs.js'; ?>"></script>
 		<script src="<?php echo get_template_directory_uri().'/style/js/common/lightview/lightview-merge.js'; ?>"></script>
 		<script src="<?php echo get_template_directory_uri().'/style/js/page/motifs.js'; ?>"></script>
 		<base target="_self" />
