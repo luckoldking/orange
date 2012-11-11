@@ -5,12 +5,12 @@
 
 .carousel-v1{padding-top:30px;width:950px;height:400px;overflow:hidden;position:relative;background:url('../../img/common/ajax-loader.gif') center center no-repeat;}
 .carousel-v1 img{display:block;width:950px;height:400px;}
-.carousel-v1 .jcarousel-prev{position:absolute;left:20px;top:182px;width:36px;height:36px;
+.carousel-v1 .jcarousel-prev{position:absolute;left:20px;bottom:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-left.png) no-repeat;cursor:pointer;
 	_background: none;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://www.swasky.com/wordpress/wp-content/themes/orange/style/img/page/carousel-left.png,sizingMethod=scale)	
 }
-.carousel-v1 .jcarousel-next{position:absolute;right:20px;top:182px;width:36px;height:36px;
+.carousel-v1 .jcarousel-next{position:absolute;right:20px;bottom:182px;width:36px;height:36px;
 	background:url(../../img/page/carousel-right.png) no-repeat;cursor:pointer;
 	_background: none;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://www.swasky.com/wordpress/wp-content/themes/orange/style/img/page/carousel-right.png,sizingMethod=scale)	
