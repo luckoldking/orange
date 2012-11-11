@@ -12,10 +12,10 @@
     }
 })();
 /*merge end*/
-ImportJavascript.url("http://127.0.0.1/wordpress/wp-content/themes/orange/style/js/common/lightview/swfobject.js");
-ImportJavascript.url("http://127.0.0.1/wordpress/wp-content/themes/orange/style/js/common/lightview/excanvas.js");
-ImportJavascript.url("http://127.0.0.1/wordpress/wp-content/themes/orange/style/js/common/lightview/spinners.min.js");
-ImportJavascript.url("http://127.0.0.1/wordpress/wp-content/themes/orange/style/js/common/lightview/lightview.js");
+ImportJavascript.url("/wordpress/wp-content/themes/orange/style/js/common/lightview/swfobject.js");
+ImportJavascript.url("/wordpress/wp-content/themes/orange/style/js/common/lightview/excanvas.js");
+ImportJavascript.url("/wordpress/wp-content/themes/orange/style/js/common/lightview/spinners.min.js");
+ImportJavascript.url("/wordpress/wp-content/themes/orange/style/js/common/lightview/lightview.js");
 
 
 
