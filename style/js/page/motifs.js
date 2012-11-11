@@ -14,7 +14,7 @@
 				this.execute();
 			}	
 		},
-		//Ö´ĞĞinit·½·¨µÄÇ°ÖÃÌõ¼ş
+		//æ‰§è¡Œinitæ–¹æ³•çš„å‰ç½®æ¡ä»¶
 		preCondition:function(){
 			return true;
 		},
@@ -31,7 +31,7 @@
 	parts = (Basic.Parts = {});
 	
 	
-	//Í¼Æ¬¸¡³öÃèÊö²ã
+	//å›¾ç‰‡æµ®å‡ºæè¿°å±‚
 	parts.popDetail = {
 		execute:function(){
 			
@@ -41,7 +41,7 @@
 		}
 	}
 	
-	//Ï²»¶motifs·¢ËÍ¹¦ÄÜ
+	//å–œæ¬¢motifså‘é€åŠŸèƒ½
 	parts.sendLike = {
 		execute:function(){
 			var con = $('.likebox-content');
@@ -70,14 +70,14 @@
 			var self = this,
 				motifs = $('.motifs-detail li span');
 			
-			//µã»÷motifsÉÏµÄÎÒÏ²»¶£¬¼ÓÈëÏ²»¶ÁĞ±í¹¦ÄÜ
+			//ç‚¹å‡»motifsä¸Šçš„æˆ‘å–œæ¬¢ï¼ŒåŠ å…¥å–œæ¬¢åˆ—è¡¨åŠŸèƒ½
 			motifs.on('click',function(e){
 				e.preventDefault();
 				e.stopPropagation();
 				var li = $(this).closest('li'),
 					cl = li.clone();
 				
-				//ÒÑ¾­ÓĞÁË£¬Ôòreturn
+				//å·²ç»æœ‰äº†ï¼Œåˆ™return
 				if(self._localStorage(cl, 'has')){
 					return;
 				}
@@ -88,7 +88,7 @@
 				con.append(cl);
 				self._move(li,cl);
 			});
-			//µã»÷ÁĞ±íÍ¼Æ¬ÓÒÉÏ½Çºá¸Ü£¬´ÓÁĞ±íÖĞÉ¾³ı
+			//ç‚¹å‡»åˆ—è¡¨å›¾ç‰‡å³ä¸Šè§’æ¨ªæ ï¼Œä»åˆ—è¡¨ä¸­åˆ é™¤
 			con.on('click','.lightview span',function(e){
 				e.preventDefault();
 				e.stopPropagation();
@@ -99,7 +99,7 @@
 					$('.likebox').hide();
 				}
 			});
-			//Í¼Æ¬Á´½ÓÁĞ±íÌá½»µ½contact usÒ³Ãæ
+			//å›¾ç‰‡é“¾æ¥åˆ—è¡¨æäº¤åˆ°contact usé¡µé¢
 			$('#likebox-send').click(function(e){
 				if($.browser.msie && $.browser.version < 8){
 					var pics = $('.likebox .lightview img'),
@@ -107,7 +107,7 @@
 						param = '';
 					
 					if(pics.length === 0 ){
-						alert('Please choose your favourite motifs first£¡');
+						alert('Please choose your favourite motifs firstï¼');
 						return;
 					}
 					pics.each(function(i, el){
@@ -120,7 +120,7 @@
 					window.open('http://127.0.0.1/wordpress/contact#contactmail','_self');
 				}
 			});
-			//¼æÈİĞÔµÄposition:fixed
+			//å…¼å®¹æ€§çš„position:fixed
 			var defaultTop = parseInt($('.likebox').css('top'));
 			$(window).on('scroll', function(e){
 				$('.likebox').css({

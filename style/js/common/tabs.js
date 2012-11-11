@@ -31,6 +31,8 @@ Tabs.prototype = {
 	 *		default					不进行自动切换
 	 *		liner					顺序播放
 	 *		random					随机播放
+	 *
+	 *	- offset
 	 */	
 	init: function(div, options) {
 		var self = this;
@@ -41,7 +43,8 @@ Tabs.prototype = {
 			pane: 'div.tab-pane,ul.tab-pane',
 			prevNav: 'a.prev',
 			nextNav: 'a.next',
-			active: 'active'
+			active: 'active',
+			offset: 0
 		}, options);
 		this.options = options;
 
@@ -132,7 +135,7 @@ Tabs.prototype = {
 		this.div.on(event, options.nextNav, function(e) {
 			e.preventDefault();
 			var next = self.index + 1;	
-			if (next < self._panes.length) {
+			if (next < self._panes.length - options.offset) {
 				self.switchTo(next);
 			}
 		});
@@ -156,7 +159,7 @@ Tabs.prototype = {
 				return;
 			}
 
-			var index = self._autoSwitch(self.index, self._panes.length);
+			var index = self._autoSwitch(self.index, self._panes.length - options.offset);
 			self.switchTo(index, function() {
 				setTimeout(fn, interval);
 			});
@@ -200,7 +203,7 @@ Tabs.Effect = {
 
 	'leftright': {
 		setup: function(o) {
-			o.panes.css('width', o.container.width() + 'px');
+			//o.panes.css('width', o.container.width() + 'px');
 		},
 
 		show: function(o, callback) {
