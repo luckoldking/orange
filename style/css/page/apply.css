@@ -3,7 +3,7 @@
  @date 2012.10.21
 */
 
-.apply-tab{margin:30px 100px 50px;border-bottom:1px solid #ccc;}
+.apply-tab{margin:30px 100px 40px;border-bottom:1px solid #ccc;}
 .apply-tab li{float:left;display:inline;width:250px;padding-bottom:4px;text-align:center;}
 .apply-tab span{display:block;padding:20px 0;height:20px;line-height:20px;color:#333;font-size:16px;}
 li.apply-tab-current  span{border-bottom:1px solid #ccc;font-weight:bold;}
@@ -22,3 +22,15 @@ li.apply-tab-current  span{border-bottom:1px solid #ccc;font-weight:bold;}
 .customdesign-list li img{float:left;display:inline;}
 .customdesign-list li img.flow-pic{width:250px;height:250px;}
 .customdesign-list li img.flow-arrow{width:40px;height:40px;margin:105px 50px 0 50px;}
+
+.apply-post{padding:30px 40px;background-color:#F4F4F4;}
+.apply-post h4{text-align:center;font-size:16px;color:#333;font-weight:bold;}
+.apply-post p{padding-bottom:10px;font-size:14px;line-height:2.2;font-family:"Verdana,Tahoma, Arial,\5b8b\4f53, sans-serif";}
+.apply-post p b{font-weight:bold;font-size:18px;}
+.apply-post p span{font-weight:bold;font-size:16px;font-family:Tahoma, Arial, "\5b8b\4f53", sans-serif;color:#333;}
+
+h3.apply-table-title{margin:20px 0 15px 0px;color:#333;}
+table.apply-table{width:100%;table-layout:fixed;background-color:#FFF;color:#666;font-size:14px;}
+table.apply-table th,table.apply-table td{padding:6px;border:1px solid #CCC;text-align:center;}
+table.apply-table th{font-weight:bold;color:#333;}
+table td.apply-table-head{color:#333;font-weight:bold;}

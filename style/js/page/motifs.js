@@ -120,6 +120,13 @@
 					window.open('http://127.0.0.1/wordpress/contact#contactmail','_self');
 				}
 			});
+			//¼æÈÝÐÔµÄposition:fixed
+			var defaultTop = parseInt($('.likebox').css('top'));
+			$(window).on('scroll', function(e){
+				$('.likebox').css({
+					top:(defaultTop + $(window).scrollTop()) + 'px'  
+				})
+			});
 		},
 		_move:function(from, to){
 			var pos1 = from.offset(),

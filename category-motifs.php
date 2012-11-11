@@ -3,7 +3,7 @@
  * motifs page file
  */
 get_header(); ?>
-			<div class="mod-content">
+			<div class="mod-content" style="position:relative;">
 				<div class="motifs">
 					<div class="carousel-v2">
 						<ul id="mycarousel">
@@ -25,13 +25,13 @@ get_header(); ?>
 						<?php endforeach ?>
 					</ul>
 				</div>
-			</div>
-			<div class="likebox">
-				<h4>Your favourite</h4>
-				<ul class="likebox-content clr">
-				</ul>
-				<div class="clr">
-					<button id="likebox-send" class="likebox-send">send to us</button>
+				<div class="likebox">
+					<h4>Your favourite</h4>
+					<ul class="likebox-content clr">
+					</ul>
+					<div class="clr">
+						<button id="likebox-send" class="likebox-send">send to us</button>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -2,11 +2,14 @@
 <html>
 	<head>
 		<title><?php bloginfo( 'name' ); ?></title>
+		<!--
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
-		<script src="<?php echo get_template_directory_uri().'/style/js/common/jquery-1.8.js'; ?>"></script>
-		<script src="<?php echo get_template_directory_uri().'/style/js/common/carousel/jcarousel.js'; ?>"></script>
-		<script src="<?php echo get_template_directory_uri().'/style/js/common/lightview/lightview-merge.js'; ?>"></script>
-		<script src="<?php echo get_template_directory_uri().'/style/js/page/motifs.js'; ?>"></script>
+		-->
+		<link rel="stylesheet" href="http://orange/wordpress/wp-content/themes/orange/style.css" type="text/css" />
+		<script src="http://orange/wordpress/wp-content/themes/orange/style/js/common/jquery-1.8.js"></script>
+		<script src="http://orange/wordpress/wp-content/themes/orange/style/js/common/carousel/jcarousel.js"></script>
+		<script src="http://orange/wordpress/wp-content/themes/orange/style/js/common/lightview/lightview-merge.js"></script>
+		<script src="http://orange/wordpress/wp-content/themes/orange/style/js/page/motifs.js"></script>
 		<base target="_self" />
 	</head>
 	
@@ -15,8 +18,8 @@
 			<div class="mod-content">
 				<div id="header" class="clr">
 					<div class="logo">
-						<a href="http://127.0.0.1/wordpress">
-							<img alt="cstar" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/common/logo.gif" />
+						<a href="http://orange/wordpress">
+							<img alt="cstar" src="http://orange/wordpress/wp-content/themes/orange/style/img/common/logo.gif" />
 						</a>
 					</div>
 
