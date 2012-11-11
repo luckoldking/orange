@@ -207,10 +207,11 @@ Tabs.Effect = {
 		},
 
 		show: function(o, callback) {
-			var now = o.panes.eq(o.index),
+			var first = o.panes.eq(0),
+				now = o.panes.eq(o.index),
 				content = now.parent(),
 				
-				contentLeft = content.offset().left,
+				contentLeft = first.offset().left,
 				nowLeft = now.offset().left;
 
 			content.css('position', 'relative');
