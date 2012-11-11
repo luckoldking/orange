@@ -19,6 +19,8 @@ get_header(); ?>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/5.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/6.jpg" /></a></li>
 					</ul>
+					<div class="jcarousel-prev jcarousel-prev-horizontal"></div>
+					<div class="jcarousel-next jcarousel-next-horizontal"></div>
 				</div>
 				<h3 class="commontitle">Hot Products</h3>
 				<div class="division" style="margin:10px 0 25px 0;"></div>
@@ -79,12 +81,14 @@ get_header(); ?>
 		</div>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
-    			jQuery('#mycarousel').jcarousel({
-    				scroll:1,
-    				auto:3,
-    				animation:1000,
-    				wrap:'circular'
-    			});
+				new Tabs('div.carousel-v1', {
+					event: 'click',
+					prevNav: 'div.jcarousel-prev',
+					nextNav: 'div.jcarousel-next',
+					pane: '#mycarousel li',
+					effect: 'leftright',
+					autoSwitch: 'liner'
+				});
 			});
 		</script>
 

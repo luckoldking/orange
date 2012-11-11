@@ -20,6 +20,7 @@ get_header(); ?>
 						</li>
 						<?php endwhile ?>
 					</ul>
+					<?php pagenavi() ?>
 					<div class="likebox">
 						<h4>Your favourite</h4>
 						<ul class="likebox-content clr">
