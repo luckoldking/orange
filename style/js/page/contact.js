@@ -30,7 +30,7 @@ var Contact = {
 			form[0].submit();
 		});
 		
-		//初始化邮件区块的喜欢motifs列表
+		//鍒濆鍖栭偖浠跺尯鍧楃殑鍠滄motifs鍒楄〃
 		var likearea = $('.likearea');
 		if(likearea.length > 0){
 			this._initFavourite($('.likearea'));
@@ -63,7 +63,7 @@ var Contact = {
 	_bindEvent:function(con){
 		var self = this;
 	
-		//点击列表图片右上角横杠，从列表中删除
+		//鐐瑰嚮鍒楄〃鍥剧墖鍙充笂瑙掓í鏉狅紝浠庡垪琛ㄤ腑鍒犻櫎
 		con.on('click','.lightview span',function(e){
 			e.preventDefault();
 			e.stopPropagation();
