@@ -114,10 +114,10 @@
 						data.push(el.src);
 					});
 					param = data.join(',');
-					window.open('http://127.0.0.1/wordpress/contact?pics=' + encodeURIComponent(param) + '#contactmail','_self');						
+					window.open('/wordpress/contact?pics=' + encodeURIComponent(param) + '#contactmail','_self');						
 				}
 				else{
-					window.open('http://127.0.0.1/wordpress/contact#contactmail','_self');
+					window.open('/wordpress/contact#contactmail','_self');
 				}
 			});
 			//兼容性的position:fixed
