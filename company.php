@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-			<div class="mod-content">
+			<div class="mod-content" style="padding-bottom:30px;">
 				<!--<h3 class="commontitle">Welcome to Cstar International,LLC!</h3>-->
 				<div class="division" style="margin:20px 0 35px 0;"></div>
 				<div class="company-post">
@@ -18,6 +18,7 @@ get_header(); ?>
 						Customer service has always been our highest priority and we do our best to meet customer requirements in a timely manner.<br/>
 						With no setup fee and a minimum of only 12 pieces for custom designs, we will provide a layout within 24 hours. In 5-7 days, the final product will be delivered to your hand after your approval of the layout.
 					</p>
+					<!-- 公司图片区，暂时隐藏，有需要时去掉注释
 					<h4>Photos</h4>
 					<ul class="company-show clr">
 						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/product/proimage/0165(1).jpg" target="_blank"><img src="http://www.cstarintl.com/product/proimage/0165(1).jpg"></a></li>
@@ -25,6 +26,7 @@ get_header(); ?>
 						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/images/3.jpg" target="_blank"><img src="http://www.cstarintl.com/images/3.jpg"></a></li>
 						<li><a class="lightview" data-lightview-group="lvgroupcompany" href="http://www.cstarintl.com/images/4.jpg" target="_blank"><img src="http://www.cstarintl.com/images/4.jpg"></a></li>
 					</ul>
+					-->
 				</div>
 			</div>
 		</div>

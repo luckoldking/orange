@@ -9,7 +9,7 @@
 .contactmail{width:800px;margin:0 auto;}
 .contactmail h3{color:#333;font-size:14px;font-weight:normal;}
 .emaillist{width:620px;padding:30px 50px;border:1px dashed #ccc;margin:20px 0;color:#333;}
-.emaillist li{width:310px;padding-bottom:8px;}
+.emaillist li{float:left;width:310px;padding-bottom:8px;}
 .emaillist li label{display:block;font-size:14px;line-height:26px;padding-bottom:8px;}
 .emaillist li input{display:block;width:240px;height:14px;padding:6px;line-height:14px;border:1px solid #ccc;}
 .emaillist li.tarea{float:right;}

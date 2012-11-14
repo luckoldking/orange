@@ -21,14 +21,14 @@ get_header(); ?>
 						</div>
 						<ul class="customdesign-list">
 							<li class="clr">
-								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow11.jpg" />
-								<img class="flow-arrow" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" />
-								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow12.jpg" />
+								<img class="flow-pic" src="<?php echo get_template_directory_uri() ?>/style/img/page/flow11.jpg" />
+								<img class="flow-arrow" src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/arrow-right.png" />
+								<img class="flow-pic" src="<?php echo get_template_directory_uri() ?>/style/img/page/flow12.jpg" />
 							</li>
 							<li class="clr">
-								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow21.jpg" />
-								<img class="flow-arrow" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" />
-								<img class="flow-pic" src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/flow22.jpg" />
+								<img class="flow-pic" src="<?php echo get_template_directory_uri() ?>/style/img/page/flow21.jpg" />
+								<img class="flow-arrow" src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/arrow-right.png" />
+								<img class="flow-pic" src="<?php echo get_template_directory_uri() ?>/style/img/page/flow22.jpg" />
 							</li>
 						</ul>
 					</li>
@@ -48,34 +48,34 @@ get_header(); ?>
 					<li class="apply-tabcon-li">
 						<ul class="iron-list clr">
 							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/01.jpg" />
-								<span>remove the white protective backing,and make sure that the elements are not shifted.</span>
+								<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/01.jpg" />
+								<span>1.remove the white protective backing,and make sure that the elements are not shifted.</span>
 							</li>
-							<li class="arrow"><img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" /></li>
+							<li class="arrow"></li>
 							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/02.jpg" />
-								<span>Place the sticky-side of the transfer paper down onto fabric.If it's not in the desired position,reposition it.</span>
+								<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/02.jpg" />
+								<span>2.Place the sticky-side of the transfer paper down onto fabric.If it's not in the desired position,reposition it.</span>
 							</li>
-							<li class="arrow"><img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-right.png" /></li>
+							<li class="arrow"></li>
 							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/03.jpg" />
-								<span>Ajust the temperature as needed.Heavier fabrics need more time and light fabrics need less time.</span>
+								<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/03.jpg" />
+								<span>3.Ajust the temperature as needed.Heavier fabrics need more time and light fabrics need less time.</span>
 							</li>
-							<li class="arrow-down"><img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-down.jpg" /></li>
+							<li class="arrow-down"></li>
 							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/06.jpg" />
-								<span>Iron directly on top of the pressing cloth.If your garment is thin,place a flat cardboard inside.</span>
-							</li>
-							<li class="arrow"><img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-left.jpg" /></li>
+                            	<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/04.jpg" />
+                            	<span>4.When properly applied,transfers are fully machine-washable and dryable.Turn garment inside out before washing.</span>
+                            </li>
+							<li class="arrow"></li>
 							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/05.jpg" />
-								<span>Allow to cool completely and then slowly remove the transfer paper.If it's not sticky,re-apply heat.</span>
+								<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/05.jpg" />
+								<span>5.Allow to cool completely and then slowly remove the transfer paper.If it's not sticky,re-apply heat.</span>
 							</li>
-							<li class="arrow"><img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/arrow-left.jpg" /></li>
-							<li>
-								<img src="http://127.0.0.1/wordpress/wp-content/themes/orange/style/img/page/iron-on/04.jpg" />
-								<span>When properly applied,transfers are fully machine-washable and dryable.Turn garment inside out before washing.</span>
-							</li>
+							<li class="arrow"></li>
+                            <li>
+                            	<img src="<?php echo get_template_directory_uri() ?>/style/img/page/iron-on/06.jpg" />
+                            	<span>6.Iron directly on top of the pressing cloth.If your garment is thin,place a flat cardboard inside.</span>
+                            </li>
 						</ul>
 						<div class="apply-post">
 							<h4>NOTE</h4>

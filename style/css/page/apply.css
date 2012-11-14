@@ -13,7 +13,7 @@ li.apply-tab-current  span{border-bottom:1px solid #ccc;font-weight:bold;}
 .iron-list li{float:left;display:inline;width:200px;}
 .iron-list li img{display:block;width:200px;height:160px;}
 .iron-list li span{display:block;margin-top:4px;line-height:22px;color:#666;}
-.iron-list li.arrow{width:75px;}
+.iron-list li.arrow{width:75px;height:40px;}
 .iron-list li.arrow img{width:auto;height:auto;margin:60px auto 0;}
 .iron-list li.arrow-down{width:200px;margin:28px 0 30px 550px;}
 .iron-list li.arrow-down img{width:auto;height:auto;margin:0 auto;}

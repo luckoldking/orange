@@ -4,14 +4,17 @@
  */
 
 get_header(); ?>
+			<!-- 网站公告区，有公告内容时把注释去掉 
 			<div class="clare">
 				<div class="division"></div>
 				<h2>Here is some infomation about holiday or other special info.</h2>
 				<div class="division"></div>
 			</div>
+			-->
 			<div class="mod-content">
 				<div class="carousel-v1">
 					<ul id="mycarousel">
+						<!-- 顶部轮播 -->
 						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
@@ -24,6 +27,7 @@ get_header(); ?>
 				</div>
 				<h3 class="commontitle">Hot Products</h3>
 				<div class="division" style="margin:10px 0 25px 0;"></div>
+				<!-- 产品区products -->
 				<ul class="showlist1 clr">
 					<li><a href="#"><span>type1</span><img src="http://www.swasky.com/images/tu11_58.gif" /></a></li>
 					<li><a href="#"><span>type2type2type2type2</span><img src="http://www.swasky.com/images/tu12_58.gif" /></a></li>
@@ -38,8 +42,9 @@ get_header(); ?>
 			<div class="showblock">
 				<div class="mod-content">
 					<h3 class="commontitle">New Designs Show Case</h3>
+					<!-- 首页热门motifs区 -->
 					<ul class="showlist clr">
-						<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
+						<li><a href="http://www.swasky.com/wordpress/?cat=5"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>
 						<li><a href="#"><img src="http://www.cstarintl.com/images/4.jpg" /></a></li>

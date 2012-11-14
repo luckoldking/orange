@@ -7,6 +7,7 @@ get_header(); ?>
 				<div class="motifs">
 					<div class="carousel-v2">
 						<ul id="mycarousel">
+						<!-- 增加类似下面的结构来增加轮播图，图片的src换成想要图片的地址，a标签的href换成想跳转到的类目链接 -->
 							<li><a href="#"><img src="http://www.cstarintl.com/images/1.jpg" /></a></li>
 							<li><a href="#"><img src="http://www.cstarintl.com/images/2.jpg" /></a></li>
 							<li><a href="#"><img src="http://www.cstarintl.com/images/3.jpg" /></a></li>

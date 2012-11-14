@@ -29,7 +29,7 @@ get_header(); ?>
 							<button id="likebox-send" class="likebox-send">send to us</button>
 						</div>
 					</div>
-					<a class="fixeffect motif-backbut" href="http://127.0.0.1/wordpress/category/motifs">Back to Category</a>
+					<a class="fixeffect motif-backbut" href="/wordpress/?cat=1">Back to Category</a>
 				</div>
 			</div>
 		</div>
