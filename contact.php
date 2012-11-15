@@ -47,7 +47,9 @@ function get_contact_field($name) {
 get_header(); ?>
 			<div class="mod-content">
 				<div id="footer">
+					<!-- 
 					<h3 class="commontitle">Contact Us</h3>
+					-->
 					<div class="division" style="margin:20px 0 35px 0;"></div>
 					<div class="contact-post">
 						<p>

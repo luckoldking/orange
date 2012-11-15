@@ -16,7 +16,7 @@
 				<div id="header" class="clr">
 					<div class="logo">
 						<a href="http://orange/wordpress">
-							<img alt="cstar" src="http://orange/wordpress/wp-content/themes/orange/style/img/common/logo.gif" />
+							<img style="margin-left:60px;" alt="cstar" src="<?php echo get_template_directory_uri().'/style/img/common/logo.jpg'; ?>" />
 						</a>
 					</div>
 
