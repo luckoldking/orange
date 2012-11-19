@@ -3,13 +3,13 @@
  @date 2012.10.15
 */
 
-.carousel-v2{padding:30px 1px 40px 1px;width:948px;height:154px;position:relative; overflow: hidden;}
+.carousel-v2{padding:30px 1px 40px 1px;width:948px;height:210px;position:relative; overflow: hidden;}
 .carousel-v2 #mycarousel {width: 10000px;}
-.carousel-v2 li{float:left;display:inline;width:208px;height:144px;overflow:hidden;margin:0 9px 0 10px;padding:4px;border:1px solid #CCC;}
-.carousel-v2 img{display:block;width:208px;height:144px;}
-.carousel-v2 .jcarousel-prev{position:absolute;left:-1px;top:85px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
+.carousel-v2 li{float:left;display:inline;width:208px;height:200px;overflow:hidden;margin:0 9px 0 10px;padding:4px;border:1px solid #CCC;}
+.carousel-v2 img{display:block;width:208px;height:200px;}
+.carousel-v2 .jcarousel-prev{position:absolute;left:-1px;top:113px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
 	background:url(../../img/page/carousel2-left.jpg) no-repeat;cursor:pointer;}
-.carousel-v2 .jcarousel-next{position:absolute;right:0px;top:85px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
+.carousel-v2 .jcarousel-next{position:absolute;right:0px;top:113px;width:46px;height:44px;opacity:0.8;filter:alpha(opacity=80);
 	background:url(../../img/page/carousel2-right.jpg) no-repeat;cursor:pointer;}
 
 .motifs-cata{padding:0 1px 30px 1px;}
@@ -22,10 +22,10 @@
 .motifs-detailblock{margin-top:30px;border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;background:#FFF url(../../img/page/bg-list.png) repeat;}
 .motifs-detailblock .mod-content{border-top:3px solid #F3F3F3;border-bottom:3px solid #F3F3F3;}
 .motifs-detail{padding:50px 32px 30px 32px;}
-.motifs-detail li{float:left;display:inline;width:192px;height:152px;margin:0 14px 20px 15px;}
+.motifs-detail li{float:left;display:inline;width:192px;height:192px;margin:0 14px 20px 15px;}
 .motifs-detail li a:link,.motifs-detail li a:visited{position:relative;display:block;padding:4px;border:2px solid #CCC;color:#333;}
 .motifs-detail li a:hover,.motifs-detail li a:active{border-color:#c44141;}	
-.motifs-detail li img{display:block;width:180px;height:140px;}
+.motifs-detail li img{display:block;width:180px;height:180px;}
 .motifs-detail li a:link span,.motifs-detail li a:visited span{display:none;padding:2px 2px 2px 24px;height:16px;line-height:16px;
 	position:absolute;right:4px;bottom:4px;background:#FFF url(../../img/common/like.png) 4px 2px no-repeat;}
 .motifs-detail li a:hover span,.motifs-detail li a:active span{display:block;}

@@ -45,11 +45,11 @@ h3.commontitle{padding:20px 0 0 15px;height:44px;line-height:44px;font-family:"D
 
 /* clare */
 .clare{padding-top:30px;}
-.clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 100px;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53, sans-serif";color:#333;font-weight:normal;}
+.clare h2{line-height:30px;background-color:#FFF;padding:20px 0 20px 0;text-align:center;font-family:"Droid Sans,Tahoma, Arial, \5b8b\4f53, sans-serif";color:#333;font-weight:normal;}
 
 /* footer */
 #footer{padding-bottom:40px;}
-.supportpic{width: 848px;height: 93px;background: url("../../img/common/bg-support.jpg") no-repeat;margin: 0 auto;overflow: hidden;}
+.supportpic{width: 848px;height: 93px;margin: 0 auto;overflow: hidden;}
 h3.contacttitle{padding-top:40px;color:#666;}
 .contactlist{padding-left:40px;}
 .contactlist ul{float:left;width:343px;padding:0 20px 30px 60px;}

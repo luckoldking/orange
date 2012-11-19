@@ -64,8 +64,9 @@ get_header(); ?>
 							<li><b>FAX</b><span>86-571-85333052</span></li>
 							<li><b>E-MAIL</b><span>info@cstarintl.com</span></li>
 							<li><b>MSN</b><span>swasky@swasky.com</span></li>
-							<li><b>HOURS</b><br/><span>Monday-Saturday 9:00 a.m-6:00 p.m China Time</span></li>
-							<li><b>OFFICE ADDRESS(in China)</b><br/><span>15/F,Dongguan Building ,No.4288 Jiangnan Road,Binjiang District,Hangzhou, China</span></li>
+							<li><b>SKYPE</b><span>caleb_c</span></li>
+							<li><b>HOURS</b><span>Monday-Saturday 9:00AM-6:00PM</span></li>
+							<li><b>OFFICE ADDRESS(in China)</b><br/><span>15/F, Dongguan Building, No.4288 Jiangnan Road, Binjiang District, Hangzhou, China</span></li>
 							<li><b>MAP</b><br/>
 								<a title="click to view location in googlemap" class="googlemap" target="_blank" href="http://maps.google.com/maps?q=30.183859,120.153187&amp;hl=en&amp;sll=30.197915,120.185585&amp;sspn=0.038821,0.09201&amp;num=1&amp;z=19">
 									<img alt="address of china" src="<?php echo get_template_directory_uri() ?>/style/img/page/map-china.png">
@@ -75,12 +76,14 @@ get_header(); ?>
 						<div class="division2"></div>
 						<ul>
 							<li><h3>U.S.A</h3></li>
-							<li><b>TEL</b><span>86-571-85333051</span></li>
-							<li><b>FAX</b><span>86-571-85333052</span></li>
-							<li><b>E-MAIL</b><span>info@cstarintl.com</span></li>
-							<li><b>MSN</b><span>swasky@swasky.com</span></li>
-							<li><b>HOURS</b><br/><span>Monday-Saturday 9:00 a.m-6:00 p.m China Time</span></li>
-							<li><b>OFFICE ADDRESS(in China)</b><br/><span>15/F,Dongguan Building ,No.4288 Jiangnan Road,Binjiang District,Hangzhou, China</span></li>
+							<li><b>TEL</b><span>(408)705-4409</span></li>
+							<li><b>E-MAIL</b><span>cstarintl@gmail.com</span></li>
+							<li><b>SKYPE</b><span>caleb_c</span></li>
+							<li><b>HOURS</b><span>Monday-Saturday 9:00AM-6:00PM</span></li>
+							<li><b>OFFICE ADDRESS(in U.S.A)</b><br/><span>1520 South Mary Ave Sunnyvale, CA, 94087, USA</span></li>
+							<li>&nbsp;</li>
+							<li>&nbsp;</li>
+							<li>&nbsp;</li>
 							<li><b>MAP</b><br/>
 								<a title="click to view location in googlemap" class="googlemap" target="_blank" href="http://maps.google.com/maps?q=1520+South+Mary+Ave+Sunnyvale,+CA+94087&hl=en&sll=37.0625,-95.677068&sspn=37.735377,78.662109&z=16">
 									<img alt="address of usa" src="<?php echo get_template_directory_uri() ?>/style/img/page/map-usa.png">
@@ -112,7 +115,15 @@ get_header(); ?>
 							</ul>
 						</form>
 					</div>	
-					<div class="supportpic"></div>
+					<div class="supportpic"><img usemap="#multilinks" src="<?php echo get_template_directory_uri() ?>/style/img/common/bg-support.jpg" /></div>
+<map name="multilinks" id="multilinks">
+  <area shape="rect" coords="282,44,364,86" href ="http://www.google.com" alt="google" />
+  <area shape="rect" coords="382,44,486,86" href ="http://www.amazon.com" alt="amazon" />
+  <area shape="rect" coords="506,44,546,86" href ="http://www.ups.com" alt="ups" />
+  <area shape="rect" coords="568,44,650,86" href ="http://www.dhl.com" alt="dhl" />
+  <area shape="rect" coords="670,44,760,86" href ="http://www.alibaba.com" alt="alibaba" />
+  <area shape="rect" coords="774,44,826,86" href ="http://www.ebay.com" alt="ebay" />
+</map>
 				</div>	
 			</div>
 		</div>
